@@ -1,6 +1,8 @@
 Jake TerHark - jterha2
 CS361 - Memory Paging Simulation
 
+'vmpager_results.pdf' contains the results of running this simulator.
+
 To compile the program run 'make' or 'make vmpager' in this directory.
 
 The simulator takes 3 arguments where the first argument is always the file name of
