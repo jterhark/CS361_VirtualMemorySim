@@ -1,14 +1,13 @@
+//Jake TerHark - jterha2
+//CS 361 - Memory Pager
+
 #include <cstdlib>
 #include <iostream>
-#include <sys/types.h>
 #include <sys/stat.h>
-#include <sys/types.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <string.h>
-#include <stdio.h>
+#include <cstring>
 #include <sys/mman.h>
-#include <stdint.h>
 #include <iomanip>
 
 #define PAGETABLESIZE 256

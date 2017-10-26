@@ -3,7 +3,7 @@ project(cs361_3)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES vmpager.cpp)
 add_executable(cs361_3 ${SOURCE_FILES})
 
 configure_file(raw/Esher.raw Esher.raw COPYONLY)
