@@ -14,7 +14,7 @@
 #define PAGETABLESIZE 256
 #define NPROCESSES 256
 
-int frameTableSize = 2048; //default = 256
+int frameTableSize = 256; //default = 256
 int pageMisses     = 0;
 int pageHits       = 0;
 
