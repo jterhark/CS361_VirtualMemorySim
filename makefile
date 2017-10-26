@@ -1,2 +1,2 @@
 vmpager: main.cpp
-    g++ -std=c++11 -o vmpager
+	g++ main.cpp -std=c++11 -o vmpager
